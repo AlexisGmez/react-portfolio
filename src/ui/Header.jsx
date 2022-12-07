@@ -2,10 +2,13 @@ import React from 'react'
 import HeaderContent from './HeaderContent'
 import Navbar from './Navbar'
 
-const Header = () => {
+const Header = ( { setDarkMode,darkMode } ) => {
   return (
     <div className='header' id='header'>
-      <Navbar />
+      <Navbar  
+        setDarkMode={ setDarkMode }
+        darkMode={darkMode} 
+      />
       <HeaderContent />
     </div>
   )

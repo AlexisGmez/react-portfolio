@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100;1,700&display=swap');
 :root{
   --header-bg: #10A19D;
+  --main-bg: #fff;
+  --color-text:#000;
   --white-color: #fff;
   --card-bg: #f9f5f2;
   --icons-color: #f7a409;
@@ -25,7 +27,13 @@ img{
   width: 100%;
   display: block;
 }
-
+.App.dark__mode{
+  --header-bg: #251749;
+  --main-bg: #495579;
+  --color-text: #fff;
+  --card-bg: #251749;
+  
+}
 
 .App{
   display: flex;
@@ -33,6 +41,7 @@ img{
   align-items: center;
   width: 100%;
   min-width: 350px;
+  background: var(--main-bg);
   
   .header{
     height: 100vh;
@@ -163,7 +172,9 @@ img{
         }
       }
       .colaboration{
+        color: var(--color-text) ;
         background: var(--card-bg);
+        box-shadow: .5rem 0 1rem rgba(255, 255, 255, 0.047);
         text-align: center;
         position: absolute;
         display: flex;
@@ -188,7 +199,8 @@ img{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
+    background: var(--main-bg);
+    color: var(--color-text) ;
     .aboutMe{
       padding: 2rem 1rem;
       display: flex;

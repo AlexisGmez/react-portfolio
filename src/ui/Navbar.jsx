@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({ setDarkMode,darkMode }) => {
 
   const [showMenu, setShowMenu] = useState(false);
   const screenW = () => screen.width < 776 && setShowMenu(!showMenu);
@@ -14,6 +14,7 @@ const Navbar = () => {
         {/* <a href="#experience" onClick={ ()=>screenW() } ><li className='nav__item'>Experiencia</li></a> */}
         <a href="#portfolio" onClick={ ()=>screenW() }><li className='nav__item'>Mi portafolio</li></a>
         <a href="#contacts" onClick={ ()=>screenW() } ><li className='nav__item'>Contacto</li></a>
+        <li><i className={`nav__item bx bxs-${darkMode?'sun':'moon'}`} onClick={()=>setDarkMode(!darkMode)}></i></li>
       </ul>
       <div className='menuIcon__container'><i className='bx bx-menu' onClick={()=>setShowMenu(!showMenu)}></i></div>
     </nav>
