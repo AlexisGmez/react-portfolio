@@ -11,9 +11,9 @@ const HeaderContent = () => {
         <h1>Soy <br/><span>Alexis Medrano</span></h1>
         <h3>Desarrollador Full Stack Jr</h3>
         <div className="header__social">
-            <a href="https://www.linkedin.com/in/alexis-gmez-4431b4218" target={_blank}><i className='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/alexiisgmez/" target={_blank}><i className='bx bxl-instagram-alt'></i></a>
-            <a href="https://www.facebook.com/alanalexis.medranogomez/" target={_blank}><i className='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/alexis-gmez-4431b4218" target='_blank'><i className='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/alexiisgmez/" target='_blank'><i className='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.facebook.com/alanalexis.medranogomez/" target='_blank'><i className='bx bxl-facebook'></i></a>
         </div>
       </div>
       <div className="colaboration">
