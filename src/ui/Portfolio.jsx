@@ -14,7 +14,7 @@ const Portfolio = () => {
         img2={Img2} 
         img3={Img3} 
         Img4 = {Img4}
-        img5 = {Img5}
+        Img5 = {Img5}
         title='E-commerce vanilla' 
         title2='Weather App' 
         title3='Rick & Morty' 
