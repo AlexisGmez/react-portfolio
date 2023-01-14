@@ -10,6 +10,7 @@ const Habilities = () => {
       <Hability hability='React js' porcent={70} />
       <Hability hability='Bootstrap' porcent={80} />  
       <Hability hability='Sass' porcent={70} />  
+      <Hability hability='Redux' porcent={60} />  
         
     </div>
   )
