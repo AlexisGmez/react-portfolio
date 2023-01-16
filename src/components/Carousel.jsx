@@ -28,7 +28,7 @@ const Carousel = ({ img1,img2,img3,Img4,Img5,Img6,title,title2,title3,title4,tit
                 </div>
                 <div className="carousel-item">
                     <h3>{ title6 }</h3>
-                    <a href="https://pokedex-alexis-medrano.netlify.app/#/pokedex" target='_blank'><img src={Img6} className="d-block w-100" alt="..." /></a>
+                    <a href="https://movies-page-alexis.netlify.app/" target='_blank'><img src={Img6} className="d-block w-100" alt="..." /></a>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
