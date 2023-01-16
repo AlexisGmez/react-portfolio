@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carousel = ({ img1,img2,img3,Img4,Img5,title,title2,title3,title4,title5}) => {
+const Carousel = ({ img1,img2,img3,Img4,Img5,Img6,title,title2,title3,title4,title5,title6}) => {
   return (
     <>
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
@@ -25,6 +25,10 @@ const Carousel = ({ img1,img2,img3,Img4,Img5,title,title2,title3,title4,title5})
                 <div className="carousel-item">
                     <h3>{ title5 }</h3>
                     <a href="https://pokedex-alexis-medrano.netlify.app/#/pokedex" target='_blank'><img src={Img5} className="d-block w-100" alt="..." /></a>
+                </div>
+                <div className="carousel-item">
+                    <h3>{ title6 }</h3>
+                    <a href="https://pokedex-alexis-medrano.netlify.app/#/pokedex" target='_blank'><img src={Img6} className="d-block w-100" alt="..." /></a>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
