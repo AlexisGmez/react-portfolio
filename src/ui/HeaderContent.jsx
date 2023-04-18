@@ -2,6 +2,7 @@ import React from 'react'
 import Me from '../assets/me.jpg';
 const HeaderContent = () => {
   return (
+
     <section className='header__content'>
       <div className="img__container">
         <img src={Me} alt="" />

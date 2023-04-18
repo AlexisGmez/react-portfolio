@@ -1,13 +1,15 @@
 import React from 'react'
+import './styles/Hability.scss';
 
-const Hability = ({hability, porcent}) => {
+const Hability = ({hability}) => {
   return (
 
-    <>
-        <h4>{hability} {porcent}%</h4>
-        <div className='hability' style={{width:`${porcent}%`}}>
+    <article className='habilityContainer' >
+        <div className='imageContainer' style={{backgroundImage:`url(${hability.image})`}}>
+          
         </div>
-    </>
+        <h4>{hability.name}</h4>
+    </article>
     
   )
 }

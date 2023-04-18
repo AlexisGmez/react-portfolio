@@ -1,16 +1,18 @@
-import React from 'react'
-import Carousel from '../components/Carousel'
+import React from 'react';
+import Carousel from '../components/Carousel';
 import Img1 from '../assets/e-commerce-desk.png';
 import Img2 from '../assets/weather-app.png';
 import Img3 from '../assets/rickandmorty.png';
-import Img4 from '../assets/e-commerce-react.png'
-import Img5 from '../assets/pokedex-react.png'
-import Img6 from '../assets/moviePage.png'
+import Img4 from '../assets/e-commerce-react.png';
+import Img5 from '../assets/pokedex-react.png';
+import Img6 from '../assets/moviePage.png';
 
 const Portfolio = () => {
   return (
     <div className='portfolio' id='portfolio'>
+
       <h2>Portfolio</h2>
+      
       <Carousel 
         img1={Img1} 
         img2={Img2} 
@@ -25,6 +27,7 @@ const Portfolio = () => {
         title5='Pokedex'
         title6='MoviesPage'
       />
+
     </div>
   )
 }

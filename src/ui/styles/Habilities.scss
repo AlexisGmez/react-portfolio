@@ -1,0 +1,14 @@
+
+.habilitiesContent{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+}
+
+@media(min-width:776px){
+
+    .habilitiesContent{
+      
+        grid-template-columns: repeat(3,1fr);
+    }
+}
