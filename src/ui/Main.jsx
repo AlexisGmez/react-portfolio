@@ -5,6 +5,7 @@ import Habilities from './Habilities'
 import Portfolio from './Portfolio'
 import Studies from './Studies'
 
+
 const Main = () => {
   return (
     <div className='main'>

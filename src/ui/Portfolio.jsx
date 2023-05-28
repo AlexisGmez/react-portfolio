@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div className='portfolio' id='portfolio'>
 
-      <h2>Portfolio</h2>
+      <h2>Portfolio React js</h2>
       
       <Carousel 
         img1={Img1} 

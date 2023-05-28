@@ -4,12 +4,20 @@ import './styles/Habilities.scss'
 
 const habilities = [
   {
-    name:'Java Script',
-    image:'/habilities/javaScript.png'
+    name:'Next Js',
+    image:'/habilities/nextjs.webp'
   },
   {
     name:'React Js',
     image:'/habilities/react.png'
+  },
+  {
+    name:'Java Script',
+    image:'/habilities/javaScript.png'
+  },
+  {
+    name:'Type Script',
+    image:'/habilities/typescript.webp'
   },
   {
     name:'Bootstrap',
